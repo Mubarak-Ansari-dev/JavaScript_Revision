@@ -1,0 +1,4 @@
+// Internal Linking of JavaScript code to HTML file. We can write JavaScript code in three ways:
+// 1. Internal Linking (as shown above) 
+// 2. External Linking (by creating a separate .js file and linking it to HTML file using <script src="filename.js"></script>)
+
