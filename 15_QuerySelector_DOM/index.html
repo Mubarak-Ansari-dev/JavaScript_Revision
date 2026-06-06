@@ -1,0 +1,24 @@
+s<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM qury-Selector</title>
+</head>
+<body>
+    <nav class="block">
+        <p class="paragraph"> Welcome to My website </p>
+    </nav>
+    <div class="block">
+        <h4> Hey there my name is <span id="username">Mubarak ansari</span> </h4>
+        <p> I am a Software Engineer and here is code for You </p>
+        <pre><code>console.log('Hey there');</code></pre>
+    </div>
+
+    <script>
+        const body = document.querySelector('body');
+        body.innerHTML = "<h1>Hey there, You are HAcked</h1>";
+</script>
+</body>
+</html>
+
